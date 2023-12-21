@@ -1,9 +1,16 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Navbar from "./components/Navibar"
 
 function App() {
 
   return (
-    <div className="px-4 mx-auto">
-      <h1>My portfolio</h1>
+    <div>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
