@@ -21,7 +21,7 @@ const HeroSection = () => {
             <Link to="https://www.linkedin.com/in/zirimwabagabo-bahati/" target="_blank" className="cursor-pointer hover:bg-gray-600 duration-300 p-2 hover:rounded-full"><FaLinkedin size={20} /></Link>
             <Link to="https://github.com/zbahati" target="_blank" className="cursor-pointer hover:bg-gray-600 duration-300 p-2 hover:rounded-full"><FaGithub size={20} /></Link>
           </div>
-          <button type="button" className=" bg-[#5933D3] px-4 py-3 rounded-xl  text-xl hover:scale-95 duration-300 hover:bg-[#3f20a4]">Download CV</button>
+          <button type="button" className=" bg-[#5933D3] px-4 py-3 rounded-xl my-4  text-xl hover:scale-95 duration-300 hover:bg-[#3f20a4]">Download CV</button>
         </div>
       </div>
       <img src={profilePicture} alt="my picture" className="h-3/4 object-cover w-3/4 rounded-full shadow-2xl shadow-white ring-4 mx-auto order-first md:order-last mt-24 hover:scale-[95%] hover:ring-white hover:shadow-xl duration-300" />
