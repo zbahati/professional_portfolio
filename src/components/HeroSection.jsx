@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="sm:py-3">
         <div className="mx-auto px-2">
           <div className="grid gap-3 py-5 md:py-2 ">
-            <h1>🖐Hi, I'm <span className="text-[#5833d3ee] text-xl font-semibold">Bahati zirimwabagabo</span></h1>
+            <h1>🖐Hi, I&lsquo;m <span className="text-[#5833d3ee] text-xl font-semibold">Bahati zirimwabagabo</span></h1>
             <h1 className="font-bold text-4xl">Full-stack Developer</h1>
           </div>
           <div className="py-3">
