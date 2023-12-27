@@ -24,7 +24,7 @@ const HeroSection = () => {
           <button type="button" className=" bg-[#5933D3] px-4 py-3 rounded-xl my-4  text-xl hover:scale-95 duration-300 hover:bg-[#3f20a4]">Download CV</button>
         </div>
       </div>
-      <img src={profilePicture} alt="my picture" className="h-3/4 object-cover w-3/4 rounded-full shadow-2xl shadow-white ring-4 mx-auto order-first md:order-last mt-24 hover:scale-[95%] hover:ring-white hover:shadow-xl duration-300" />
+      <img src={profilePicture} alt="my picture" className="h-3/4 object-cover w-3/4 rounded-full shadow-2xl shadow-white ring-4 mx-auto order-first md:order-last mt-24 md:mt-2 hover:scale-[95%] hover:ring-white hover:shadow-xl duration-300" />
     </div>
 
   );
